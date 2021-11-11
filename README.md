@@ -91,3 +91,15 @@ If you need access, open a request in {{ tool_or_location }} by {{ best_way_to_w
       - `dbt run`   - builds the models found in the project into your dev schema in the warehouse.
   
 </details>
+
+## What to do when a dbt Cloud job fails 
+
+- dbt Cloud is set up to notify us of job failures via the #analytics-status-updates Slack channel. In case of a failure, Erica will notify the greater company via the #analytics Slack channel.
+- The Analytics Engineer from the relevant department will troubleshoot the failure within 24 hours and continue to update stakeholders via #analytics 
+- The resolution and summarized post-mortem report will be posted in #analytics. This post-mortem will include:
+
+    - Summary of the outage (e.g. failing tests in our Postgres db)
+    - The cause of the outage and how we came to a resolution (e.g. ELT issue within Fivetran)
+    - Measures we've taken to ensure this doesn't happen again (e.g. Adding new tests, updating processes, etc)
+    - Actual TTD and TTR
+
