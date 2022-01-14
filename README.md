@@ -4,7 +4,7 @@ This is a [dbt](https://www.getdbt.com) project for managing {{ organization_nam
 
 Our analytics stack:
 - Loader: {{ your_data_loading_tools }}
-- Warehouse: {{ your_warehouse }}
+- Warehouse: Snowflake
 - Transformation: dbt
 - Business Intelligence: {{ your_bi_tool }}
 
