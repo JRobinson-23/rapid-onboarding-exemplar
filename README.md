@@ -1,4 +1,4 @@
-# {{ organization_name }} Analytics
+dbt Labs Analytics
 
 This is a [dbt](https://www.getdbt.com) project for managing {{ organization_name }}'s analytics project.
 
