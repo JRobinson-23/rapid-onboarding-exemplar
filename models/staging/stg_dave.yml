@@ -1,7 +1,7 @@
 version: 2
 
 models: 
-  - name: stg_dave
+  - name: stg_number_series
     columns:
       - name: generated_number
         tests:
