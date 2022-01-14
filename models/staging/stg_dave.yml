@@ -1,0 +1,9 @@
+version: 2
+
+models: 
+  - name: stg_dave
+    columns:
+      - name: generated_number
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "< 10"
