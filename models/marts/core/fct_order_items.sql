@@ -1,18 +1,21 @@
 {{
     config(
+<<<<<<< HEAD:models/marts/fct_order_items.sql
         materialized = 'view',
+=======
+>>>>>>> 796c31cf55e80b384987b94ce83a13cc62d0ebb3:models/marts/core/fct_order_items.sql
         tags = ['finance']
     )
 }}
 
 with order_item as (
     
-    select * from {{ ref('order_items') }}
+    select * from {{ ref('int_order_items_joined') }}
 
 ),
 part_supplier as (
     
-    select * from {{ ref('part_suppliers') }}
+    select * from {{ ref('int_part_suppliers_joined') }}
 
 ),
 final as (
