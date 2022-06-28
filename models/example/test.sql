@@ -1,1 +1,1 @@
-select 2 as test
+select 3 as test
