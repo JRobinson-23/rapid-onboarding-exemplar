@@ -8,6 +8,7 @@ renamed as (
 
     select
 
+
         -- ids
         o_orderkey as order_id,
         o_custkey as customer_id,
